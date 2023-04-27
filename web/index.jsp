@@ -37,7 +37,7 @@
    </form>
  <div class="row">
       <div class="col-8">
-          <h1>Bienvenido a GALAXY APP</h1>
+          <h1>Bienvenidos jugadores</h1>
           <p>
       Encuentra todo lo que buscas en un solo lugar. Bienvendio a GALAXY App, lideres en tecnología. Podrás encontrar una amplia variedad de productos y marcas importada.
       </p>
