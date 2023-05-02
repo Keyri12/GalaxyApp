@@ -26,11 +26,11 @@ html {
 
 #formlogin
 {
-   margin-top: -700px;
+   margin-top: -800px;
 }
 .nologin
 {
-    margin-top: -550px;
+    margin-top: -650px;
     color: white;
     font-size: 30pt;
     background-color: #1b1641;
@@ -85,7 +85,6 @@ footer {
 }
 .imageedit
 {
-    position: center;
     
 }
 .text

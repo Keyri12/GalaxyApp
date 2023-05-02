@@ -13,7 +13,7 @@
     <body>
         <jsp:include page="view/components/menuexterno.jsp"/>  
         <img src="assets/img/fondo.png" class="img-fluid" width="100%" alt="Responsive image">
-        <div class="container">
+        <div class="container-fluid">
      
   <div class="row">
       <div class="col-8">
