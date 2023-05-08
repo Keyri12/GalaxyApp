@@ -14,7 +14,6 @@
  <jsp:include page="view/components/header.jsp"/>
     <body>
         <jsp:include page="view/components/menu_standar.jsp"/>
-        <br>
         <div id="carouselExample" class="carousel slide">
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">

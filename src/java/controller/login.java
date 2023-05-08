@@ -81,6 +81,12 @@ public class login extends HttpServlet {
            
            
            }
+       else if (accion.equals("Iniciar Sesion"))
+           {
+               request.getRequestDispatcher("iniciosesion.jsp").forward(request, response);
+           
+           
+           }
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

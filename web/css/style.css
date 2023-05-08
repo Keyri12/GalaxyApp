@@ -1,7 +1,6 @@
 *
 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12pt;
+    font-family: 'Poppins',  sans-serif;
 }
 html {
     min-height: 100%;
@@ -26,7 +25,7 @@ html {
 
 #formlogin
 {
-   margin-top: -800px;
+   margin-top: -600px;
 }
 .nologin
 {
@@ -96,3 +95,19 @@ footer {
     background-color: #1b1641; 
 }
 
+#intro
+{
+margin-top: -550px;
+}
+
+.landingpage
+{
+    background-image: url('.././assets/img/fondo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 720px;
+    width: 1080px;
+    background-size: 100%;
+    background-repeat:no-repeat ;
+  max-width: 100%;
+}
