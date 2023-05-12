@@ -4,8 +4,10 @@
     Created on : 04-10-2020, 02:54:29 PM
     Author     : JonaC
 --%>
-
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+<nav class="navbar navbar-expand-sm navbar-dark text-white">
 
   <img src="assets/img/4.png" alt="" width="80" height="70"> 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

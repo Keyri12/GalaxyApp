@@ -29,7 +29,7 @@
             <label for="password">Password</label>
             <input type="password" class="form-control" name="pass" id="pass">
           </div>
-                   <input name="accion" value="Aceptar" type="submit" id="accion" class="btn btn-info btn-block" required>
+                   <input name="accion" value="Aceptar" type="submit" id="accion" class="btn btn-success btn-block" required>
                    <input name="accion" value="Registrarse" type="submit" id="accion" class="btn btn-danger btn-block" required>
             </div>
            </form>

@@ -9,6 +9,7 @@
 <html>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
 
 <jsp:include page="view/components/header.jsp"/>    
 <style>
@@ -29,7 +30,7 @@
             <article class="card h-100 bg-light">
                 <div class="card-body">
                     <div class="d-flex">
-                        <img src="assets/img/Alex.jpg" alt="alt" class="border border-primary border-3 rounded-circle">
+                        <img src="assets/img/Alex.jpg" alt="alt" class="border border-dark border-3 rounded-circle">
                         <div class="ps-3">
                             <h6 class="m-0 h6">Bryan Moreno</h6>
                             <p class="m-0 h6">Programador WEB</p>
@@ -39,39 +40,39 @@
             </article>
           </div>
           <div class="col-12 col-lg-6 p-2">
-            <article class="card h-100 bg-success">
+            <article class="card h-100 bg-light">
               <div class="card-body">
                   <div class="d-flex">
-                      <img src="./img/Alex.jpg" alt="alt" class="border border-primary border-3 rounded-circle">
+                      <img src="assets/img/Rocio.jpg" alt="alt" class="border border-dark border-3 rounded-circle">
                       <div class="ps-3">
-                          <h6 class="m-0 h6">Bryan Moreno</h6>
-                          <p class="m-0 h6">Programador WEB</p>
+                          <h6 class="m-0 h6">Rocío Menjivar</h6>
+                          <p class="m-0 h6">Diseñadora WEB</p>
                       </div>
                   </div>
               </div>
           </article>
           </div>
           <div class="col-12 col-lg-6 p-2">
-            <article class="card h-100 bg-danger">
+            <article class="card h-100 bg-light">
               <div class="card-body">
                   <div class="d-flex">
-                      <img src="./img/Alex.jpg" alt="alt" class="border border-primary border-3 rounded-circle">
+                      <img src="assets/img/emilio.jpg" alt="alt" class="border border-dark border-3 rounded-circle">
                       <div class="ps-3">
-                          <h6 class="m-0 h6">Bryan Moreno</h6>
-                          <p class="m-0 h6">Programador WEB</p>
+                          <h6 class="m-0 h6">Emilio Bonilla</h6>
+                          <p class="m-0 h6"></p>
                       </div>
                   </div>
               </div>
           </article>
           </div>
           <div class="col-12 col-lg-6 p-2">
-            <article class="card h-100 bg-warning">
+            <article class="card h-100 bg-light">
               <div class="card-body">
                   <div class="d-flex">
-                      <img src="./img/Alex.jpg" alt="alt" class="border border-primary border-3 rounded-circle">
+                      <img src="assets/img/yisel.jpg" alt="alt" class="border border-dark border-3 rounded-circle">
                       <div class="ps-3">
-                          <h6 class="m-0 h6">Bryan Moreno</h6>
-                          <p class="m-0 h6">Programador WEB</p>
+                          <h6 class="m-0 h6">Yisel Aguilar</h6>
+                          <p class="m-0 h6">Administradora Base de Datos</p>
                       </div>
                   </div>
               </div>
@@ -81,10 +82,10 @@
       </div>
       <!--Columna derecha-->
       <div class="col-12 col-lg-3 p-2" >
-        <article class="card h-100 bg-secondary">
+        <article class="card h-100">
           <div class="card-body">
               <div class="d-flex">
-                  <img src="./img/image-kira.jpg" alt="alt" class="border border-primary border-3 rounded-circle">
+                  <img src="assets/img/foto.png" alt="alt" class="border border-dark border-3 rounded-circle">
                   <div class="ps-3">
                       <h6 class="m-0 h6">Keyri Vanegas</h6>
                       <p class="m-0 h6">Master Scrum</p>

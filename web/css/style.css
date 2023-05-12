@@ -25,13 +25,13 @@ html {
 
 #formlogin
 {
-   margin-top: -600px;
+   margin-top: -650px;
 }
 .nologin
 {
     margin-top: -650px;
     color: white;
-    font-size: 30pt;
+    font-size: 20pt;
     background-color: #1b1641;
     opacity: 0.8;
 }
@@ -79,12 +79,6 @@ footer {
   height: 35px;
   color: white;
   margin: 0px;
-  
-  
-}
-.imageedit
-{
-    
 }
 .text
 {
@@ -97,7 +91,7 @@ footer {
 
 #intro
 {
-margin-top: -550px;
+margin-top: -650px;
 }
 
 .landingpage
@@ -110,4 +104,9 @@ margin-top: -550px;
     background-size: 100%;
     background-repeat:no-repeat ;
   max-width: 100%;
+}
+
+.card-body
+{
+    background-color: #1b1641;
 }

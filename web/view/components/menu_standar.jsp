@@ -3,7 +3,9 @@
     Created on : 04-10-2020, 03:23:15 PM
     Author     : JonaC
 --%>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
 <nav class="navbar navbar-expand-sm navbar-dark text-white">
  <div class="container">
     <img src="assets/img/4.png" alt="" width="80" height="70"> 
