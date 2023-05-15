@@ -80,7 +80,7 @@
                <p class="card-text"style="font-size: 10pt;"><span><%= publimodel.getDescripcion()%></p>
                <p class="card-text"><h5 class="badge rounded-pill bg-dark text-white card-text" style="padding: 8px; font-size: 10pt;"><%= publimodel.getContenido()%></h5></p>
                <a href="#" class="btn btn-primary">Mas detalles</a>
-                <a href="#" class="btn btn-success">Comprar</a>
+                <a href="#" class="btn btn-success">Añadir al carrito</a>
              </div>
         </div>
        </div>
