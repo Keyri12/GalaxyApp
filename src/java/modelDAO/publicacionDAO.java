@@ -27,8 +27,7 @@ public class publicacionDAO {
     publicacion publi = new publicacion();
     
      public List listar() {
-           ArrayList <publicacion> list = new ArrayList<>();
-           String query="SELECT * FROM publicacion ORDER BY creacion DESC";
+           ArrayList <publicacion> list = new ArrayList<>();          String query="SELECT * FROM publicacion ORDER BY creacion DESC";
            try
            {
                conect=conexion.getConnection();
@@ -42,6 +41,7 @@ public class publicacionDAO {
                     publi.setContenido(rs.getString("contenido"));
                     publi.setImagen(rs.getString("imagen"));
                     publi.setEstado(rs.getInt("estado"));
+                    publi.setMasDetalles(rs.getString("masDetalles"));
                     list.add(publi);
                }
            }
