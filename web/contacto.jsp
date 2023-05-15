@@ -21,13 +21,14 @@
 </style>
     <body>
         <jsp:include page="view/components/menuexterno.jsp"/>
+        <div class="shadow p-3 mb-5 bg-body rounded">
         <main class="container d-flex align-items-center justify-content-center alto-100">
     <div class="row">
       <!--Columna izquierda-->
       <div class="col-12 col-lg-9" >
         <div class="row">
           <div class="col-12 col-lg-6 p-2">
-            <article class="card h-100 bg-light">
+            <article class="card h-100 bg-light text-white">
                 <div class="card-body">
                     <div class="d-flex">
                         <img src="assets/img/Alex.jpg" alt="alt" class="border border-dark border-3 rounded-circle">
@@ -40,7 +41,7 @@
             </article>
           </div>
           <div class="col-12 col-lg-6 p-2">
-            <article class="card h-100 bg-light">
+            <article class="card h-100 bg-light text-white">
               <div class="card-body">
                   <div class="d-flex">
                       <img src="assets/img/Rocio.jpg" alt="alt" class="border border-dark border-3 rounded-circle">
@@ -53,20 +54,20 @@
           </article>
           </div>
           <div class="col-12 col-lg-6 p-2">
-            <article class="card h-100 bg-light">
+            <article class="card h-100 bg-light text-white">
               <div class="card-body">
                   <div class="d-flex">
                       <img src="assets/img/emilio.jpg" alt="alt" class="border border-dark border-3 rounded-circle">
                       <div class="ps-3">
                           <h6 class="m-0 h6">Emilio Bonilla</h6>
-                          <p class="m-0 h6"></p>
+                          <p class="m-0 h6">Analista Programador</p>
                       </div>
                   </div>
               </div>
           </article>
           </div>
           <div class="col-12 col-lg-6 p-2">
-            <article class="card h-100 bg-light">
+            <article class="card h-100 bg-light text-white">
               <div class="card-body">
                   <div class="d-flex">
                       <img src="assets/img/yisel.jpg" alt="alt" class="border border-dark border-3 rounded-circle">
@@ -82,7 +83,7 @@
       </div>
       <!--Columna derecha-->
       <div class="col-12 col-lg-3 p-2" >
-        <article class="card h-100">
+        <article class="card h-100 bg-light text-white">
           <div class="card-body">
               <div class="d-flex">
                   <img src="assets/img/foto.png" alt="alt" class="border border-dark border-3 rounded-circle">
@@ -96,7 +97,7 @@
       </div>
     </div>
   </main>
-
+</div>
 
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
