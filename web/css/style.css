@@ -1,6 +1,7 @@
 *
 {
     font-family: 'Poppins',  sans-serif;
+   
 }
 html {
     min-height: 100%;
@@ -108,5 +109,5 @@ margin-top: -650px;
 
 .card-body
 {
-    background-color: #1b1641;
+    background-color: #ffffff;
 }

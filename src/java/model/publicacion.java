@@ -10,7 +10,15 @@ package model;
  * @author MINEDUCYT
  */
 public class publicacion {
-    String titulo, descripcion, contenido, creacion, imagen;
+    String titulo, descripcion, contenido, creacion, imagen, masDetalles;
+
+    public String getMasDetalles() {
+        return masDetalles;
+    }
+
+    public void setMasDetalles(String masDetalles) {
+        this.masDetalles = masDetalles;
+    }
     int publicacion_id, categoria_id, estado, usuario_id;
 
     public String getTitulo() {

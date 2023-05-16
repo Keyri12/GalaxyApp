@@ -46,7 +46,8 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
+      </div><br>
+        
         <div class="row">
              
               
@@ -60,7 +61,7 @@
                          {
                              publimodel = iterator.next();
                         %>
-        <div class="col-4">
+        <div class="col-4"> 
                         
         <div class="card">
             <div class="card-header">
@@ -79,7 +80,7 @@
                <img src="<%= publimodel.getImagen()%>" class="img-thumbnail" alt="...">
                <p class="card-text"style="font-size: 10pt;"><span><%= publimodel.getDescripcion()%></p>
                <p class="card-text"><h5 class="badge rounded-pill bg-dark text-white card-text" style="padding: 8px; font-size: 10pt;"><%= publimodel.getContenido()%></h5></p>
-               <a href="#" class="btn btn-primary">Mas detalles</a>
+               <a href="<%= publimodel.getMasDetalles()%>" class="btn btn-primary">Mas detalles</a>
                 <a href="#" class="btn btn-success">Añadir al carrito</a>
              </div>
         </div>
