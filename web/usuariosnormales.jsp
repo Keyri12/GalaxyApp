@@ -17,37 +17,33 @@
  <jsp:include page="view/components/header.jsp"/>
     <body>
         <jsp:include page="view/components/menu_standar.jsp"/>
-        <div id="carouselExample" class="carousel slide">
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/img/1.svg" class="d-block w-100 d-img" alt="slider 1">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Galaxy Technology</h5>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" >
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/img/1.svg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+          <h5 style="font-size: 40px; font-weight: bold;">Galaxy Technology</h5>
                 <p>Crea tu propia galaxia con nosotros</p>
-              </div>
-          </div>
-          <div class="carousel-item active">
-            <img src="./assets/img/2.svg" class="d-block w-100 d-img" alt="slider 2">
-          </div>
-          <div class="carousel-item active">
-            <img src="assets/img/Diseño sin título (1).svg" class="d-block w-100 d-img" alt="slider 3">
-          </div>
-          <div class="carousel-item active">
-            <img src="assets/img/24.svg" class="d-block w-100 d-img" alt="slider 5">
-          </div>
-           </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div><br>
-        
+                   </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/2.svg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/Diseño sin título (1).svg" class="d-block w-100" alt="...">
+    </div>
+       <div class="carousel-item">
+      <img src="assets/img/24.svg" class="d-block w-100" alt="...">
+    </div>
+       <div class="carousel-item">
+      <img src="assets/img/3-4.svg" class="d-block w-100" alt="...">
+    </div>
+       <div class="carousel-item">
+      <img src="assets/img/4-2.svg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+        <div style="background-color: #1b1641; color: white; font-size: 22pt;" class="text-center">Categorías</div>
         <div class="row">
              
               
@@ -89,6 +85,7 @@
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     </body>
+    <br><br>
     <footer>
          <jsp:include page="view/components/footer.jsp"/>
     </footer>

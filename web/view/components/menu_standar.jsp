@@ -35,10 +35,5 @@
       ${usuario}
     </span>
     &nbsp
-    <form class="form-inline my-2 my-lg-0" action="products">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="TxtBuscar">
-      <input name="accion" value="Buscar" type="submit" id="accion" class="btn btn-outline-success my-2 my-sm-0">
-
-    </form>
   </div>
 </nav>

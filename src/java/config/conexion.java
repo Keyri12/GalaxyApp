@@ -15,7 +15,7 @@ public class conexion {
     private static final String DBPASS="";
     private static final String DBHOST="localhost";
     private static final String PORT="3306";
-    private static final String DBNAME="miproyecto";
+    private static final String DBNAME="galaxyapp";
     private static final String CLASS="com.mysql.jdbc.Driver";
     private static final String URL="jdbc:mysql://"+DBHOST+":"+PORT+"/"+DBNAME;
   

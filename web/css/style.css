@@ -107,7 +107,9 @@ margin-top: -650px;
   max-width: 100%;
 }
 
-.card-body
+
+
+#info
 {
-    background-color: #ffffff;
+    background-color: #1b1641;
 }
